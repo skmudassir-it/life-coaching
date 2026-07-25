@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a6e"/>
+      <stop offset="100%" style="stop-color:#2d5aa0"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4a017"/>
+      <stop offset="100%" style="stop-color:#f0c75e"/>
+    </linearGradient>
+  </defs>
+  <!-- North Star (4-pointed star) -->
+  <g transform="translate(60, 60)">
+    <polygon points="0,-30 8,-8 30,0 8,8 0,30 -8,8 -30,0 -8,-8" fill="url(#goldGrad)"/>
+    <polygon points="0,-42 5,-12 42,0 5,12 0,42 -5,12 -42,0 -5,-12" fill="url(#starGrad)" opacity="0.4"/>
+  </g>
+  <!-- Text -->
+  <text x="130" y="52" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#1e3a6e" letter-spacing="1">NorthStar</text>
+  <text x="130" y="78" font-family="Georgia, serif" font-size="14" fill="#6b7fa0" letter-spacing="3">LIFE COACHING</text>
+  <!-- Divider line -->
+  <line x1="130" y1="88" x2="340" y2="88" stroke="url(#goldGrad)" stroke-width="2" opacity="0.6"/>
+</svg>
